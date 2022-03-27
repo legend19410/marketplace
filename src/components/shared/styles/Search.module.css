@@ -1,0 +1,47 @@
+.searchForm{
+    position: absolute;
+    top:110%; right:-110%;
+    width: 50rem;
+    height:5rem;
+    background: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+
+.searchForm input{
+    height:100%;
+    width:100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color:var(--black);
+    padding:0 1.5rem;
+}
+
+.searchForm label{
+    font-size: 2.2rem;
+    padding-right: 1.5rem;
+    color:var(--black);
+    cursor: pointer;
+}
+
+.searchForm label:hover{
+    color:var(--orange);
+}
+
+.active{
+    right:2rem;
+    transition: .4s linear;
+}
+
+@media (max-width:768px){
+
+    .searchForm{
+        width:90%;
+    }
+
+}

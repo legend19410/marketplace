@@ -1,0 +1,21 @@
+.stars{
+    padding:1rem 0;
+}
+
+ .stars i{
+    font-size: 1.7rem;
+    /* color:var(--green); */
+    
+}
+
+.stars i:hover{
+    cursor: pointer;
+}
+
+.set{
+    color: var(--orange);
+}
+
+.unset{
+    color: grey;
+}

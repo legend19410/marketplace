@@ -1,0 +1,30 @@
+.dropDown{
+    display: none;
+    position:absolute;
+   color: var(--black);
+    bottom: -470%;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    border-radius: .5em;
+    font-size: 2rem;
+    padding: 2em 2em;
+}
+
+.dropDown div{
+    padding: .3em 2.5em;
+}
+
+.dropDown a{
+    color: var(--black);
+    /* color: var(--black); */
+}
+
+
+.dropDown div:hover{
+    background-color: var(--orange);
+    border-left: 3px solid var(--black);
+}
+
+.active{
+    display: initial;
+}

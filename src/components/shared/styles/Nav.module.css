@@ -1,0 +1,35 @@
+
+.navBar a{
+    font-size: 1.7rem;
+    margin:0 1rem;
+    color:var(--black);
+}
+
+.navBar a:hover{
+    color:var(--orange);
+}
+
+.active{
+    right:2rem;
+    transition: .4s linear;
+}
+
+@media (max-width:768px){
+
+    .navBar{
+        position: absolute;
+        top:110%; right:-110%;
+        width:30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: #fff;
+    }
+
+     .navBar a{
+        font-size: 2rem;
+        margin:2rem 2.5rem;
+        display: block;
+    }
+
+
+}

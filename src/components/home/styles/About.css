@@ -1,0 +1,56 @@
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+ }
+ 
+ .about .image{
+    flex:1 1 41rem;
+ }
+ 
+ .about .image img{
+    width: 100%;
+ }
+ 
+ .about .content{
+    flex:1 1 41rem;
+ }
+ 
+ .about .content .title{
+    font-size: 3rem;
+    color:var(--black);
+ }
+ 
+ .about .content p{
+    font-size: 1.5rem;
+    color:var(--light-black);
+    padding:1rem 0;
+    line-height: 2;
+ }
+ 
+ .about .content .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    margin-top: 1rem;
+ }
+ 
+ .about .content .icons-container .icons{
+    flex:1 1 16rem;
+    text-align: center;
+    padding:3rem 2rem;
+ }
+ 
+ .about .content .icons-container .icons img{
+    height: 10rem;
+ }
+ 
+ .about .content .icons-container .icons h3{
+    padding-top: 1rem;
+    font-size: 2rem;
+    color:var(--light-black);
+    font-weight: normal;
+ }
+ 

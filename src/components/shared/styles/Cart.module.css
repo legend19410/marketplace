@@ -1,0 +1,150 @@
+
+.shoppingCart{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+    position: absolute;
+    top:110%; right:-110%;
+    padding:1rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    width:35rem;
+    height: 82vh;
+    background: #fff;
+    /* opacity: 0.2; */
+    /* border: 1px solid blue; */
+}
+
+.shoppingCart .active{
+    right:2rem;
+    transition: .4s linear;
+}
+
+.cartItemContainer{
+    overflow-y: scroll;
+    /* border: 1px solid red; */
+    margin-top: 2.6em;
+    /* max-height: 80%; */
+    width: 100%;
+}
+
+.cartItemContainer::-webkit-scrollbar{
+    width: 4px;
+}
+
+.cartItemContainer::-webkit-scrollbar-thumb{
+    background-color: #7775;
+    border-radius: 5px;
+}
+
+.cartItemContainer::-webkit-scrollbar-thumb:hover{
+    background-color:  var(--black);
+}
+
+.totalContainer{
+    /* position:fixed;
+    top: 36px; */
+    /* border: 1px solid purple; */
+}
+
+.box{
+    display: flex;
+    /* position: relative; */
+    /* align-items: center; */
+    /* gap:1rem; */
+    /* position: relative; */
+    /* margin:1rem 0; */
+    /* border: 1px solid red; */
+}
+
+.image{
+    max-height:10rem;
+    max-width: 10rem;
+    /* border: 1px solid yellow; */
+    flex-grow: 1;
+}
+
+.trashContainer{
+    /* background-color: blue; */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .trash{
+    font-size: 2rem;
+    /* position: absolute; */
+    /* top:50%; right:2rem; */
+    cursor: pointer;
+    color:var(--light-color);
+    /* transform: translateY(-50%); */
+    
+}
+
+ .trash:hover{
+    color:var(--orange);
+}
+
+.content{
+    /* border: 1px solid orange; */
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h3{
+    color:var(--black);
+    font-size: 1.7rem;
+    /* padding-bottom: 1rem; */
+    text-align: center;
+}
+
+ .content span{
+    color:var(--light-color);
+    font-size: 1.6rem;
+}
+
+.price{
+    text-align: center;
+}
+
+ .quantity{
+    padding-left: 1rem;
+    width: 5em;
+    /* background-color: gray; */
+    margin: 0 auto;
+}
+
+.total{
+    font-size: 2.5rem;
+    /* padding:1rem 0; */
+    text-align: center;
+    color:var(--black);
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    margin:1rem;
+}
+
+.active{
+    right:2rem;
+    transition: .4s linear;
+}
+
+.exit{
+    position: absolute;
+    right: 0;
+    /* z-index: 10; */
+    margin-right: 1em;
+    font-size: 2rem;
+    margin-top: 0.5em;
+}
+
+.exit:hover{
+    cursor: pointer;
+    color: red;
+}
