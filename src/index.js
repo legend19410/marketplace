@@ -7,7 +7,7 @@ import axios from 'axios'
 import { Provider } from './context_store/ContextAPI'
 
 
-axios.defaults.baseURL = 'https://marketplace-estore-backend.herokuapp.com//'
+axios.defaults.baseURL = 'https://marketplace-estore-backend.herokuapp.com/'
 // axios.defaults.baseURL = 'http://localhost:8080/'
 
 ReactDOM.render(
