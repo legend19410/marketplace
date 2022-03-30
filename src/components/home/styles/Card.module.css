@@ -40,3 +40,9 @@
     height:17rem;
     margin:1rem 0;
 }
+
+@media(max-width: 539px){
+    .card{
+        width: 100%;
+    }
+}

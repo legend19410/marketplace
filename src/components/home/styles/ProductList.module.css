@@ -5,6 +5,15 @@
     gap:1.5rem;
 }
 
+@media(max-width: 539px){
+    .productContainer{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+}
+
 
 
 

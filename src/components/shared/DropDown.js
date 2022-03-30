@@ -9,7 +9,9 @@ function DropDown({show, active, setActive}) {
     const remove = (ev)=>{            
             if (!dropDown.current.contains(ev.target)) {
             //   dropDown.current.style.display = "none"
-            setActive({...active, dropDown:false})
+            setActive(prev=>{
+                    return {...prev, dropDown:false}
+            })
             }
             
             

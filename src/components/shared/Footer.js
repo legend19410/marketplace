@@ -24,11 +24,11 @@ function Footer() {
 
         <div className="box">
             <h3>Social Media</h3>
-            <a href="#" className="links"> <i className="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://www.facebook.com/profile.php?id=100005219239487" className="links"> <i className="fab fa-facebook-f"></i> facebook </a>
             <a href="#" className="links"> <i className="fab fa-twitter"></i> twitter </a>
-            <a href="#" className="links"> <i className="fab fa-instagram"></i> instagram </a>
-            <a href="#" className="links"> <i className="fab fa-linkedin"></i> linkedin </a>
-            <a href="#" className="links"> <i className="fab fa-github"></i> github repo</a>
+            <a href="https://www.instagram.com/miltonfrancis8/" className="links"> <i className="fab fa-instagram"></i> instagram </a>
+            <a href="https://jm.linkedin.com/in/milton-francis-66b2471a7" className="links"> <i className="fab fa-linkedin"></i> linkedin </a>
+            <a href="https://github.com/legend19410/marketplace" className="links"> <i className="fab fa-github"></i> github repo</a>
         </div>
 
         <div className="box">
@@ -36,7 +36,7 @@ function Footer() {
             <a href="#" className="links"> <i className="fas fa-arrow-right"></i>  Home </a>
             <a href="#" className="links"> <i className="fas fa-arrow-right"></i>  Categories </a>
             <a href="#" className="links"> <i className="fas fa-arrow-right"></i>  About </a>
-            <a href="#" className="links"> <i className="fas fa-arrow-right"></i> Portfolio </a>
+            <a href="https://legend19410.github.io/my_portfolio" className="links"> <i className="fas fa-arrow-right"></i> Portfolio </a>
         </div>
 
         {/* <div className="box">
